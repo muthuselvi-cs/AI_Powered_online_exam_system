@@ -45,6 +45,6 @@ A robust, AI-powered Full Stack web application designed to maintain academic in
 ![Result](result.png)
 
 ### 🤖 AI Detection
-![Detection](violations.png)
+![Detection](detect_violations.png)
 ---
 *Developed as a Full Stack Developer Intern.*
