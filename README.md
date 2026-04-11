@@ -1,50 +1,57 @@
-# Smart Online Exam Proctoring System
+📘 AI-Powered Online Examination System
 
-A robust, AI-powered Full Stack web application designed to maintain academic integrity during online assessments. Built to scale with real-time proctoring and secure database management.
+🚀 Project Overview
+The AI-Powered Online Examination System is a secure web-based platform designed to conduct online exams with real-time AI proctoring. It ensures exam integrity by detecting suspicious activities like mobile usage or multiple persons.
 
-## 🚀 Key Technical Features
-* **Full Stack Architecture:** Developed using **Flask (Python)** for the backend and **Bootstrap/CSS/HTML** for a responsive, mobile-friendly interface.
-* **Database Management:** Utilized **MySQL Workbench** for secure storage of student records, exam results, and proctoring logs.
-* **AI-Powered Proctoring:**
-    * **Real-time Malpractice Detection:** Integration of **YOLOv8** to identify unauthorized mobile devices and secondary persons.
-    * **Identity Verification:** Multi-face recognition against predefined datasets.
-* **Exam Security:** * Forced Fullscreen mode & tab-switch detection.
-    * Copy-paste prevention to ensure a cheating-free environment.
-    * Live webcam feed processing using OpenCV.
+🛠️ Tech Stack
+Backend: Python, Flask
+Frontend: HTML, CSS, JavaScript (AJAX)
+Database: MySQL
+AI: YOLOv8, OpenCV
+Reporting: ReportLab
 
-## 🛠 Tech Stack
-* **Frontend:** HTML5, CSS3, Bootstrap 5
-* **Backend:** Python, Flask Framework
-* **Database:** MySQL Workbench
-* **AI/Computer Vision:** OpenCV, YOLOv8 (Ultralytics)
+🎯 Key Features
+🤖 AI-based proctoring (mobile & person detection)
+🎲 Randomized question generation
+💾 Auto-save answers using AJAX
+🚨 Violation logging with screenshots
+📊 Admin analytics dashboard
+📄 PDF report generation
 
-## 📂 Project Structure
-- `/static` - Contains CSS, JavaScript, and images.
-- `/templates` - HTML files built with Bootstrap.
-- `/models` - Pretrained YOLOv8 weights and face recognition logic.
-- `app.py` - Main Flask application routing and controller logic.
+🧩 Modules
 
-## ⚙️ Installation & Setup
-1. Clone the repository:
-   `git clone https://github.com/Muthumundasamy/smart_online_exam_system.git`
-2. Install dependencies:
-   `pip install -r requirements.txt`
-3. Configure your MySQL database using the provided schema.
-4. Run the application:
-   `python app.py`
+👨‍🎓 Student
+Register/Login
+Attend exam with live monitoring
+View results
 
-## 📸 Screenshots
+👨‍💼 Admin
+Manage questions
+View results & violations
+Generate reports
 
-### 🔐 Login Page
-![register](register.png)
+⚙️ Core Functionality
+/detect → AI proctoring
+/save_answer → Auto-save
+/submit_exam → Evaluation
+/send_review_pdf → Report generation
 
-### 📝 Exam Page
-![Exam](exam.png)
+🗄️ Database
+users, questions, results, results_answers, exam_violations
 
-### 📊 Result Page
-![Result](result.png)
+🔥 Highlights
+Real-time AI monitoring using YOLOv8
+Automatic cheating detection with proof
+Secure session handling
+Fully automated evaluation system
 
-### 🤖 AI Detection
-![Detection](detect_violations.png)
----
-*Developed as a Full Stack Developer Intern.*
+💡 Future Scope
+Face recognition login
+Cloud deployment
+Mobile optimization
+
+🏆 Conclusion
+This project combines AI + Web Development to build a secure and scalable online exam platform.
+
+👩‍💻 Author
+Muthu Selvi M
